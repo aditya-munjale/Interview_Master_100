@@ -5,7 +5,6 @@ public class deleteMiddleStack {
     public static Stack<Integer> midDelete(Stack<Integer> s,int size){
 
         if(s.size() == 0) return s;
-
         solve(s,(s.size()/2) + 1);
         return s;
 
